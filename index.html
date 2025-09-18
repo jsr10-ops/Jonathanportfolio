@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #ff4b2b);
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 70px 20px;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #ffcc70, #ff8177);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.95;
+    }
+    nav {
+      margin: 25px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: color 0.3s, text-shadow 0.3s;
+    }
+    nav a:hover {
+      color: #ffcc70;
+      text-shadow: 0 0 10px #ffcc70;
+    }
+    section {
+      padding: 70px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background: rgba(255,255,255,0.1);
+      padding: 25px;
+      border-radius: 16px;
+      margin: 25px 0;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+      backdrop-filter: blur(8px);
+    }
+    .card h2 {
+      margin-bottom: 15px;
+      color: #ffcc70;
+    }
+    button {
+      padding: 14px 25px;
+      border: none;
+      border-radius: 10px;
+      background: linear-gradient(90deg, #ffcc70, #ff8177);
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    button:hover {
+      transform: scale(1.07);
+      box-shadow: 0 0 15px #ffcc70;
+    }
+    footer {
+      background: rgba(0,0,0,0.4);
+      padding: 25px;
+      margin-top: 50px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🚀 Welcome to My Website</h1>
+    <p>A modern one-page site with awesome colors ✨</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>This is where you introduce yourself — add some fun facts!</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="card">
+      <h2>My Projects</h2>
+      <p>Show off your creations, designs, or anything cool here 🎉</p>
+      <button onclick="alert('Thanks for visiting my projects!')">Check Projects</button>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: you@example.com</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 My Website | Made with ❤️</p>
+  </footer>
+</body>
+</html>
